@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  
+  background-image: url("https://getreelcinemas.com//wp-content/uploads/2015/02/Background-Narrow.jpg");
+  background-size: cover;
+  background-attachment: fixed;  
+  position: absolute;
+  width: 100vw;
+  min-height: 100%;
+  z-index: -1000;  
+}
+
+.backdrop{
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;  
+}
+
+.Background {
+  background-color: rgb(255, 251, 231);
+  width: 70vw;
+  padding: 1.9vw;
+  margin-left: 11.9vw;
+}
+
+.Movies {
+  display: inline-block;
+  width: 20vw;
+  margin: 1vw;
+  opacity: 1.5;  
+  font-family: 'Playfair Display SC', serif;
+  text-shadow: 1px 1px 5px red;
+  position: relative;
+  z-index: 100;
+  height: auto;
+}
+
+.MoviesInfo {
+  top: 4rem;
+  position: absolute;
+  font-size: 1.1rem;
+  text-shadow: 0px 0px 0px;
+  width: 15vw;
+  padding: 1vw;
+  text-align: center;
+  left:1.5vw;
+  color: black;
+  z-index: -100;
+  overflow: hidden;
+  height: 10vh;
+}
+.movieBackground{
+    background-color: blanchedalmond;
+    height: auto;
+    width: 22vw;
+    box-shadow: 2px 2px 5px gray;
+    opacity: .8;
+    padding-bottom: .5rem;
+}
+
+img{
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+img:hover{
+  opacity: .6;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+img {
+  max-height: 40vh;
+}
